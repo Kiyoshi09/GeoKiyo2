@@ -17,6 +17,7 @@ enum TealiumConfiguration {
 
 let enableLogs = true
 
+
 public enum WebViewExampleType: Equatable {
     case noUtag // example webview without utag
     case withUtag // example webview with mobile.html/utag.js
