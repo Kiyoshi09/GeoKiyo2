@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4B782D26897099003E6F34 /* myPlace2TokyoTower7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B782C26897099003E6F34 /* myPlace2TokyoTower7.gpx */; };
+		7EFB4D662685C908002EDDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D652685C908002EDDB2 /* AppDelegate.swift */; };
+		7EFB4D682685C908002EDDB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D672685C908002EDDB2 /* SceneDelegate.swift */; };
+		7EFB4D6A2685C908002EDDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D692685C908002EDDB2 /* ViewController.swift */; };
+		7EFB4D6D2685C908002EDDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D6B2685C908002EDDB2 /* Main.storyboard */; };
+		7EFB4D6F2685C909002EDDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D6E2685C909002EDDB2 /* Assets.xcassets */; };
+		7EFB4D722685C909002EDDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D702685C909002EDDB2 /* LaunchScreen.storyboard */; };
+		7EFB4D7B2685CB60002EDDB2 /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D7A2685CB60002EDDB2 /* TealiumHelper.swift */; };
+		7EFB4D7D2685CB7E002EDDB2 /* geoKiyo.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D7C2685CB7E002EDDB2 /* geoKiyo.json */; };
+		7EFB4D7F2685FB51002EDDB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D7E2685FB51002EDDB2 /* GoogleService-Info.plist */; };
+		7EFB4D8126861308002EDDB2 /* myPlace2TokyoTower3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB4D8026861308002EDDB2 /* myPlace2TokyoTower3.gpx */; };
+		D709A9AE9582A29A96D63F8D /* Pods_GeoKiyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA488D84FF8E58AAE8C64D /* Pods_GeoKiyo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F467C82C266DA1B5100DC57 /* Pods-GeoKiyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoKiyo.release.xcconfig"; path = "Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo.release.xcconfig"; sourceTree = "<group>"; };
+		7E4B782C26897099003E6F34 /* myPlace2TokyoTower7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = myPlace2TokyoTower7.gpx; sourceTree = "<group>"; };
+		7EFB4D622685C908002EDDB2 /* GeoKiyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoKiyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFB4D652685C908002EDDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EFB4D672685C908002EDDB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7EFB4D692685C908002EDDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EFB4D6C2685C908002EDDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EFB4D6E2685C909002EDDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFB4D712685C909002EDDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EFB4D732685C909002EDDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFB4D792685CB0C002EDDB2 /* GeoKiyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoKiyo.entitlements; sourceTree = "<group>"; };
+		7EFB4D7A2685CB60002EDDB2 /* TealiumHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
+		7EFB4D7C2685CB7E002EDDB2 /* geoKiyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = geoKiyo.json; sourceTree = "<group>"; };
+		7EFB4D7E2685FB51002EDDB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EFB4D8026861308002EDDB2 /* myPlace2TokyoTower3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = myPlace2TokyoTower3.gpx; sourceTree = "<group>"; };
+		BF6D1F1B1C1917DCD09AF85B /* Pods-GeoKiyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoKiyo.debug.xcconfig"; path = "Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDAA488D84FF8E58AAE8C64D /* Pods_GeoKiyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoKiyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFB4D5F2685C908002EDDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D709A9AE9582A29A96D63F8D /* Pods_GeoKiyo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BC163BAE7CB398B81574AD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA488D84FF8E58AAE8C64D /* Pods_GeoKiyo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F9D76DFAF8462817C8FD15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6D1F1B1C1917DCD09AF85B /* Pods-GeoKiyo.debug.xcconfig */,
+				4F467C82C266DA1B5100DC57 /* Pods-GeoKiyo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EFB4D592685C908002EDDB2 = {
+			isa = PBXGroup;
+			children = (
+				7EFB4D642685C908002EDDB2 /* GeoKiyo */,
+				7EFB4D632685C908002EDDB2 /* Products */,
+				49F9D76DFAF8462817C8FD15 /* Pods */,
+				2BC163BAE7CB398B81574AD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFB4D632685C908002EDDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB4D622685C908002EDDB2 /* GeoKiyo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFB4D642685C908002EDDB2 /* GeoKiyo */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB4D8026861308002EDDB2 /* myPlace2TokyoTower3.gpx */,
+				7E4B782C26897099003E6F34 /* myPlace2TokyoTower7.gpx */,
+				7EFB4D792685CB0C002EDDB2 /* GeoKiyo.entitlements */,
+				7EFB4D7A2685CB60002EDDB2 /* TealiumHelper.swift */,
+				7EFB4D652685C908002EDDB2 /* AppDelegate.swift */,
+				7EFB4D672685C908002EDDB2 /* SceneDelegate.swift */,
+				7EFB4D692685C908002EDDB2 /* ViewController.swift */,
+				7EFB4D6B2685C908002EDDB2 /* Main.storyboard */,
+				7EFB4D6E2685C909002EDDB2 /* Assets.xcassets */,
+				7EFB4D702685C909002EDDB2 /* LaunchScreen.storyboard */,
+				7EFB4D732685C909002EDDB2 /* Info.plist */,
+				7EFB4D7C2685CB7E002EDDB2 /* geoKiyo.json */,
+				7EFB4D7E2685FB51002EDDB2 /* GoogleService-Info.plist */,
+			);
+			path = GeoKiyo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFB4D612685C908002EDDB2 /* GeoKiyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFB4D762685C909002EDDB2 /* Build configuration list for PBXNativeTarget "GeoKiyo" */;
+			buildPhases = (
+				06402EECBF7451D39043BA96 /* [CP] Check Pods Manifest.lock */,
+				7EFB4D5E2685C908002EDDB2 /* Sources */,
+				7EFB4D5F2685C908002EDDB2 /* Frameworks */,
+				7EFB4D602685C908002EDDB2 /* Resources */,
+				828156C9E5F8B9AE46032637 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoKiyo;
+			productName = GeoKiyo;
+			productReference = 7EFB4D622685C908002EDDB2 /* GeoKiyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFB4D5A2685C908002EDDB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7EFB4D612685C908002EDDB2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7EFB4D5D2685C908002EDDB2 /* Build configuration list for PBXProject "GeoKiyo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFB4D592685C908002EDDB2;
+			productRefGroup = 7EFB4D632685C908002EDDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFB4D612685C908002EDDB2 /* GeoKiyo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFB4D602685C908002EDDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFB4D722685C909002EDDB2 /* LaunchScreen.storyboard in Resources */,
+				7EFB4D8126861308002EDDB2 /* myPlace2TokyoTower3.gpx in Resources */,
+				7EFB4D6F2685C909002EDDB2 /* Assets.xcassets in Resources */,
+				7EFB4D7F2685FB51002EDDB2 /* GoogleService-Info.plist in Resources */,
+				7EFB4D6D2685C908002EDDB2 /* Main.storyboard in Resources */,
+				7EFB4D7D2685CB7E002EDDB2 /* geoKiyo.json in Resources */,
+				7E4B782D26897099003E6F34 /* myPlace2TokyoTower7.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06402EECBF7451D39043BA96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoKiyo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828156C9E5F8B9AE46032637 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFB4D5E2685C908002EDDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFB4D6A2685C908002EDDB2 /* ViewController.swift in Sources */,
+				7EFB4D662685C908002EDDB2 /* AppDelegate.swift in Sources */,
+				7EFB4D682685C908002EDDB2 /* SceneDelegate.swift in Sources */,
+				7EFB4D7B2685CB60002EDDB2 /* TealiumHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EFB4D6B2685C908002EDDB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFB4D6C2685C908002EDDB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFB4D702685C909002EDDB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFB4D712685C909002EDDB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFB4D742685C909002EDDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EFB4D752685C909002EDDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFB4D772685C909002EDDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6D1F1B1C1917DCD09AF85B /* Pods-GeoKiyo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoKiyo/GeoKiyo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDB2LX58GN;
+				INFOPLIST_FILE = GeoKiyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiyotaro.GeoKiyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7EFB4D782685C909002EDDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F467C82C266DA1B5100DC57 /* Pods-GeoKiyo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoKiyo/GeoKiyo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDB2LX58GN;
+				INFOPLIST_FILE = GeoKiyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiyotaro.GeoKiyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFB4D5D2685C908002EDDB2 /* Build configuration list for PBXProject "GeoKiyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFB4D742685C909002EDDB2 /* Debug */,
+				7EFB4D752685C909002EDDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFB4D762685C909002EDDB2 /* Build configuration list for PBXNativeTarget "GeoKiyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFB4D772685C909002EDDB2 /* Debug */,
+				7EFB4D782685C909002EDDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFB4D5A2685C908002EDDB2 /* Project object */;
+}

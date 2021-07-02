@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Tokyo tower",
+        "latitude": 35.658580,
+        "longitude": 139.745433,
+        "radius": 300,
+        "expire_after": -1,
+        "trigger_on_enter": true,
+        "trigger_on_exit": true,
+        "minimum_dwell_time": 0
+    }
+]

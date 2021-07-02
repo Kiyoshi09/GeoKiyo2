@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>487722006664-6jmsi05c0dto7f9hr0ejnrtjljhdc5i9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.487722006664-6jmsi05c0dto7f9hr0ejnrtjljhdc5i9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAIKhshP4WvbhXDbhdH6bdmIlIfbdMdk7k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>487722006664</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kiyotaro.GeoKiyo</string>
+	<key>PROJECT_ID</key>
+	<string>tealiumswiftgeokiyo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tealiumswiftgeokiyo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:487722006664:ios:53c986435280f75ecf073d</string>
+</dict>
+</plist>
