@@ -1,8 +1,8 @@
 [
     {
-        "name": "Tokyo tower",
-        "latitude": 35.658580,
-        "longitude": 139.745433,
+        "name": "Sydney Tower Eye",
+        "latitude": -33.870806,
+        "longitude": 151.208188,
         "radius": 300,
         "expire_after": -1,
         "trigger_on_enter": true,

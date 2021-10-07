@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GPXCreatorApp">
-    <wpt lat="35.657859" lon="139.770867"/>
+    <!--<wpt lat="35.657859" lon="139.770867"/>-->
+    <wpt lat="-33.857168" lon="151.215582"/>
 </gpx>

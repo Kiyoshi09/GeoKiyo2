@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E207CAA26929B9300C04FBF /* myPlace.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7E207CA926929B9300C04FBF /* myPlace.gpx */; };
 		7E207CAE2693545200C04FBF /* mySingapore.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7E207CAD2693545200C04FBF /* mySingapore.gpx */; };
+		7ED08A54270F295A0040ED55 /* OperaHouse2Tower.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7ED08A53270F295A0040ED55 /* OperaHouse2Tower.gpx */; };
 		7EFB4D662685C908002EDDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D652685C908002EDDB2 /* AppDelegate.swift */; };
 		7EFB4D682685C908002EDDB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D672685C908002EDDB2 /* SceneDelegate.swift */; };
 		7EFB4D6A2685C908002EDDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB4D692685C908002EDDB2 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		4F467C82C266DA1B5100DC57 /* Pods-GeoKiyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoKiyo.release.xcconfig"; path = "Target Support Files/Pods-GeoKiyo/Pods-GeoKiyo.release.xcconfig"; sourceTree = "<group>"; };
 		7E207CA926929B9300C04FBF /* myPlace.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = myPlace.gpx; sourceTree = "<group>"; };
 		7E207CAD2693545200C04FBF /* mySingapore.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mySingapore.gpx; sourceTree = "<group>"; };
+		7ED08A53270F295A0040ED55 /* OperaHouse2Tower.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = OperaHouse2Tower.gpx; sourceTree = "<group>"; };
 		7EFB4D622685C908002EDDB2 /* GeoKiyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoKiyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFB4D652685C908002EDDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EFB4D672685C908002EDDB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				7EFB4D8026861308002EDDB2 /* myPlace2TokyoTower3.gpx */,
 				7E207CA926929B9300C04FBF /* myPlace.gpx */,
 				7E207CAD2693545200C04FBF /* mySingapore.gpx */,
+				7ED08A53270F295A0040ED55 /* OperaHouse2Tower.gpx */,
 				7EFB4D792685CB0C002EDDB2 /* GeoKiyo.entitlements */,
 				7EFB4D7A2685CB60002EDDB2 /* TealiumHelper.swift */,
 				7EFB4D652685C908002EDDB2 /* AppDelegate.swift */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EFB4D722685C909002EDDB2 /* LaunchScreen.storyboard in Resources */,
+				7ED08A54270F295A0040ED55 /* OperaHouse2Tower.gpx in Resources */,
 				7EFB4D8126861308002EDDB2 /* myPlace2TokyoTower3.gpx in Resources */,
 				7EFB4D6F2685C909002EDDB2 /* Assets.xcassets in Resources */,
 				7E207CAA26929B9300C04FBF /* myPlace.gpx in Resources */,
@@ -385,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XDB2LX58GN;
 				INFOPLIST_FILE = GeoKiyo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XDB2LX58GN;
 				INFOPLIST_FILE = GeoKiyo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
